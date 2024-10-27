@@ -17,6 +17,7 @@ import (
 	"github.com/aquasecurity/trivy-db/pkg/vulnsrc/k8svulndb"
 	"github.com/aquasecurity/trivy-db/pkg/vulnsrc/node"
 	"github.com/aquasecurity/trivy-db/pkg/vulnsrc/nvd"
+	"github.com/danican98/trivy-db/pkg/vulnsrc/redos"
 	oracleoval "github.com/aquasecurity/trivy-db/pkg/vulnsrc/oracle-oval"
 	"github.com/aquasecurity/trivy-db/pkg/vulnsrc/photon"
 	"github.com/aquasecurity/trivy-db/pkg/vulnsrc/redhat"
@@ -48,6 +49,7 @@ var (
 		amazon.NewVulnSrc(),
 		oracleoval.NewVulnSrc(),
 		rocky.NewVulnSrc(),
+		redos.NewVulnSrc()
 		susecvrf.NewVulnSrc(susecvrf.SUSEEnterpriseLinux),
 		susecvrf.NewVulnSrc(susecvrf.OpenSUSE),
 		photon.NewVulnSrc(),
