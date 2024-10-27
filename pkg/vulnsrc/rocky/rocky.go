@@ -21,8 +21,8 @@ import (
 )
 
 const (
-	rockyDir       = "rocky"
-	platformFormat = "rocky %s"
+	rockyDir       = "redos"
+	platformFormat = "redos %s"
 )
 
 var (
