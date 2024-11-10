@@ -5,9 +5,9 @@ import (
 	"path/filepath"
 	"testing"
 
-	"github.com/aquasecurity/trivy-db/pkg/types"
-	"github.com/aquasecurity/trivy-db/pkg/utils"
-	"github.com/aquasecurity/trivy-db/pkg/vulnsrctest"
+	"github.com/danican98/trivy-db/pkg/types"
+	"github.com/danican98/trivy-db/pkg/utils"
+	"github.com/danican98/trivy-db/pkg/vulnsrctest"
 )
 
 func TestMain(m *testing.M) {

@@ -1,6 +1,6 @@
 package azure
 
-import "github.com/aquasecurity/trivy-db/pkg/vulnsrc/azure/oval"
+import "github.com/danican98/trivy-db/pkg/vulnsrc/azure/oval"
 
 type operator string
 

@@ -5,7 +5,7 @@ import (
 
 	"github.com/stretchr/testify/assert"
 
-	"github.com/aquasecurity/trivy-db/pkg/utils/ints"
+	"github.com/danican98/trivy-db/pkg/utils/ints"
 )
 
 func TestHasIntersection(t *testing.T) {

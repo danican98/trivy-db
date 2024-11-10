@@ -14,10 +14,10 @@ import (
 	"golang.org/x/exp/slices"
 	"golang.org/x/xerrors"
 
-	"github.com/aquasecurity/trivy-db/pkg/db"
-	"github.com/aquasecurity/trivy-db/pkg/types"
-	"github.com/aquasecurity/trivy-db/pkg/utils"
-	"github.com/aquasecurity/trivy-db/pkg/vulnsrc/vulnerability"
+	"github.com/danican98/trivy-db/pkg/db"
+	"github.com/danican98/trivy-db/pkg/types"
+	"github.com/danican98/trivy-db/pkg/utils"
+	"github.com/danican98/trivy-db/pkg/vulnsrc/vulnerability"
 )
 
 const (

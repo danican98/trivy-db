@@ -6,7 +6,7 @@ import (
 	bolt "go.etcd.io/bbolt"
 	"golang.org/x/xerrors"
 
-	"github.com/aquasecurity/trivy-db/pkg/types"
+	"github.com/danican98/trivy-db/pkg/types"
 )
 
 const (

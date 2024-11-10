@@ -9,13 +9,13 @@ import (
 	"github.com/stretchr/testify/assert"
 	"github.com/stretchr/testify/require"
 
-	"github.com/aquasecurity/trivy-db/pkg/db"
-	"github.com/aquasecurity/trivy-db/pkg/dbtest"
-	"github.com/aquasecurity/trivy-db/pkg/types"
-	"github.com/aquasecurity/trivy-db/pkg/utils"
-	redhat "github.com/aquasecurity/trivy-db/pkg/vulnsrc/redhat-oval"
-	"github.com/aquasecurity/trivy-db/pkg/vulnsrc/vulnerability"
-	"github.com/aquasecurity/trivy-db/pkg/vulnsrctest"
+	"github.com/danican98/trivy-db/pkg/db"
+	"github.com/danican98/trivy-db/pkg/dbtest"
+	"github.com/danican98/trivy-db/pkg/types"
+	"github.com/danican98/trivy-db/pkg/utils"
+	redhat "github.com/danican98/trivy-db/pkg/vulnsrc/redhat-oval"
+	"github.com/danican98/trivy-db/pkg/vulnsrc/vulnerability"
+	"github.com/danican98/trivy-db/pkg/vulnsrctest"
 )
 
 func TestMain(m *testing.M) {

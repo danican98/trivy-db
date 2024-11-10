@@ -8,11 +8,11 @@ import (
 	"golang.org/x/xerrors"
 	"k8s.io/utils/clock"
 
-	"github.com/aquasecurity/trivy-db/pkg/db"
-	"github.com/aquasecurity/trivy-db/pkg/metadata"
-	"github.com/aquasecurity/trivy-db/pkg/types"
-	"github.com/aquasecurity/trivy-db/pkg/vulnsrc"
-	"github.com/aquasecurity/trivy-db/pkg/vulnsrc/vulnerability"
+	"github.com/danican98/trivy-db/pkg/db"
+	"github.com/danican98/trivy-db/pkg/metadata"
+	"github.com/danican98/trivy-db/pkg/types"
+	"github.com/danican98/trivy-db/pkg/vulnsrc"
+	"github.com/danican98/trivy-db/pkg/vulnsrc/vulnerability"
 )
 
 type VulnDB interface {
